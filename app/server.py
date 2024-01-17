@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 from langserve import add_routes
-from bs4_search.chain import chain as bs4_search_chain
+from bs4_search import chain as bs4_search_chain
 
 app = FastAPI()
 

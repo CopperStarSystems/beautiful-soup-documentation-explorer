@@ -15,6 +15,7 @@ langserve = {extras = ["server"], version = ">=0.0.30"}
 pydantic = "<2"
 bs4_search = {path = "packages/bs4-search", develop = true}
 langchain-openai = "^0.0.2.post1"
+bs4 = "^0.0.2"
 
 
 [tool.poetry.group.dev.dependencies]
